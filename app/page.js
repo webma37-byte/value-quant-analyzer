@@ -147,9 +147,8 @@ export default function Home() {
         </p>
       </div>
 
-      <div style={{ maxWidth: 640, margin: "32px auto 0", padding: "0 20px" }}>
-        <div style={{
-          display: "flex", gap: 10, background: "rgba(255,255,255,0.04)",
+      <div style={{
+          display: "flex", flexWrap: "wrap", gap: 10, background: "rgba(255,255,255,0.04)",
           borderRadius: 14, padding: 6, border: "1px solid rgba(255,255,255,0.08)",
         }}>
           <input
@@ -183,7 +182,7 @@ export default function Home() {
       </div>
 
       {loading && (
-        <div style={{ maxWidth: 640, margin: "32px auto", padding: "0 20px", textAlign: "center" }}>
+        <div style={{ maxWidth: 480, margin: "32px auto", padding: "0 20px", textAlign: "center" }}>
           <div style={{
             background: "rgba(255,255,255,0.03)", borderRadius: 14,
             padding: "40px 24px", border: "1px solid rgba(255,255,255,0.06)",
