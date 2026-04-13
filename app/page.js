@@ -155,10 +155,10 @@ export default function Home() {
           fontFamily: "'Noto Serif KR', Georgia, serif", fontSize: 20, fontWeight: 700,
           color: "#f1f5f9", letterSpacing: -0.5, marginBottom: 4,
         }}>
-          밸류 퀀트 실시간 분석기
+          Value Quant Analyzer
         </h1>
         <p style={{ fontSize: 11, color: "#94a3b8" }}>
-          버핏 · 그린블랫 · 그레이엄 기반 AI 분석
+          Buffett · Greenblatt · Graham Framework
         </p>
       </div>
 
