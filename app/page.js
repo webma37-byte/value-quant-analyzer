@@ -65,7 +65,7 @@ function MarkdownBlock({ text }) {
         lineHeight: 1.85,
         fontSize: 13.5,
         color: "#1e293b",
-        wordBreak: "keep-all",
+        wordBreak: "break-word",
         overflowWrap: "break-word",
         WebkitHyphens: "auto",
       }}
