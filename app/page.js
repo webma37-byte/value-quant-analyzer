@@ -193,7 +193,7 @@ export default function Home() {
           fontFamily: "'Noto Serif KR', Georgia, serif", fontSize: 20, fontWeight: 700,
           color: "#f1f5f9", letterSpacing: -0.5, marginBottom: 4,
         }}>
-          Value Quant Real-time Analyzer
+          Value Quant Analyzer
         </h1>
         <p style={{ fontSize: 11, color: "#94a3b8", marginBottom: 0 }}>
           Buffett · Greenblatt · Graham Framework
